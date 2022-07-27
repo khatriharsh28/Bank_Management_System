@@ -3,7 +3,7 @@ import mysql.connector as a
 
 #.connect method of the MySQL Connector class to connect MySQL
 #It would return a MySQLConnection object if the connection established successfully
-con=a.connect(host="localhost", user="root",passwd="22380@khatri",database="bank")
+con=a.connect(host="localhost", user="root",passwd="AddYourPassword",database="bank")
 
 #Function to get new user account detail and store it in database
 def openAcc():
